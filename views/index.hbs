@@ -1,0 +1,11 @@
+<div class="row">
+    {{#each datas}}
+    <div class="card" style="width: 25rem;">
+        <!--<img src="..." class="card-img-top" alt="..." />-->
+        <div class="card-body">
+            <h5 class="card-title">{{data.course}}</h5>
+            <a href="{{data.link}}" class="btn btn-primary" target="_blank">Go Udemy</a>
+        </div>
+    </div>
+    {{/each}}
+</div>

@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+}
+
+h2 {
+  font-family: 'Amatic SC';
+  text-align: center;
+  color: #66bfbf;
+  font-size: 45px;
+  font-weight: bolder;
+  padding-left: 20px;
+  margin-top: 30px;
+}
+
+.topnav {
+  padding-bottom: 15px;
+  background-color: #66bfbf;
+  overflow: hidden;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 18px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  color: #d8d8d8;
+  opacity: 0.9;
+}
+
+.xborder {
+  margin: 30px 0;
+}
+
+.content {
+  max-width: 78%;
+  margin: auto;
+  text-align: center;
+}
